@@ -26,7 +26,7 @@ sections:
   - type: features_section
     title: Professional Media For Real Estate
     features:
-      - title: Feature 1
+      - title: Photography
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
