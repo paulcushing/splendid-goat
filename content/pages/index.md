@@ -39,9 +39,8 @@ sections:
             style: secondary
       - title: Video
         content: >-
-          Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
-          diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
-          euismod lacinia.
+          Quality video production including property walk-through and realtor
+          introductions.
         align: left
         image: images/feature.svg
         image_position: left
