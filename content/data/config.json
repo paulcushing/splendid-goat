@@ -35,7 +35,7 @@
                 "label": "Gallery",
                 "url": "https://gallery.gemstatemedia.com/Real-Estate",
                 "style": "link",
-                "new_window": false,
+                "new_window": true,
                 "type": "action"
             }
         ]
