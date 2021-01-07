@@ -28,9 +28,8 @@ sections:
     features:
       - title: Photography
         content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          High resolution images that exposes the beauty of your property to
+          best display and market your listing.
         align: left
         image: images/feature.svg
         image_position: right
