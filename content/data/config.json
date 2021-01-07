@@ -17,6 +17,13 @@
                 "style": "link"
             },
             {
+                "label": "Gallery",
+                "url": "https://gallery.gemstatemedia.com/Real-Estate",
+                "style": "link",
+                "new_window": false,
+                "type": "action"
+            },
+            {
                 "label": "About",
                 "url": "/about",
                 "style": "link"
@@ -30,13 +37,6 @@
                 "label": "Contact Us",
                 "url": "/contact",
                 "style": "primary"
-            },
-            {
-                "label": "Gallery",
-                "url": "https://gallery.gemstatemedia.com/Real-Estate",
-                "style": "link",
-                "new_window": false,
-                "type": "action"
             }
         ]
     },
