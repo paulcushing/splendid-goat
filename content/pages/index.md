@@ -7,8 +7,8 @@ sections:
       Photography is a universal language. We continue to find new and creative
       ways to display a property online, but we always return to the photograph.
       The best real estate photography strikes a balance between beauty and
-      honesty. Video gives you the realtor an opportunity to present the
-      property directly to your future buyer. Professional production ensures
+      honesty. Video gives you, the realtor, an opportunity to present the
+      property directly to your future buyer and professional production ensures
       you put forward your best presentation.
     actions:
       - label: Learn More
