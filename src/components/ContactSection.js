@@ -1,11 +1,15 @@
 import React from 'react';
 
 export default class ContactSection extends React.Component {
+    methodDoesNotExist = () => {
+      return broke;
+    }
+
     render() {
         return (
             <section className="section">
               <div className="container container--md">
-              <button onClick={methodDoesNotExist}>Break the world</button>
+              <button onClick={this.methodDoesNotExist}>Break the world</button>
                 <form name="contactForm" id="contactForm" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                   <div className="sr-only">
                     <label id="honeypot-label" htmlFor="honeypot">Don't fill this out if you're human:</label>
