@@ -14,6 +14,7 @@ export default class Body extends React.Component {
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="description" content={_.get(this.props, 'page.frontmatter.excerpt', null) || _.get(this.props, 'data.config.description', null)}/>
+                    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
                 </Head>
                 <div id="site-wrap" className="site">
                   <Header {...this.props} />
