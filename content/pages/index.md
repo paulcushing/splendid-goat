@@ -78,7 +78,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-  - title: lorem-ipsum
+  - title: What Realtors
     team: []
     type: team_section
 layout: advanced
