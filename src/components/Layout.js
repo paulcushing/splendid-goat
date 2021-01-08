@@ -5,23 +5,6 @@ import _ from 'lodash';
 import Header from './Header';
 import Footer from './Footer';
 
-import * as Sentry from "@sentry/react";
-import { Integrations } from "@sentry/tracing";
-
-if(process.browser) {
-    Sentry.init({
-        dsn: "https://9993f0d959b349339718a3e7dcb85218@o501587.ingest.sentry.io/5582906",
-        autoSessionTracking: true,
-        integrations: [
-        new Integrations.BrowserTracing(),
-        ],
-    
-        // We recommend adjusting this value in production, or using tracesSampler
-        // for finer control
-        tracesSampleRate: 1.0,
-    });
-}
-
 export default class Body extends React.Component {
     render() {
         return (
