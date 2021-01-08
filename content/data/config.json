@@ -7,6 +7,13 @@
         "has_nav": true,
         "nav_links": [
             {
+                "label": "Home",
+                "url": "/",
+                "style": "link",
+                "new_window": false,
+                "type": "action"
+            },
+            {
                 "label": "Services",
                 "url": "/services",
                 "style": "link"
@@ -26,11 +33,6 @@
             {
                 "label": "About",
                 "url": "/about",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
                 "style": "link"
             },
             {
