@@ -12,6 +12,13 @@
                 "style": "link"
             },
             {
+                "label": "Home",
+                "url": "/",
+                "style": "link",
+                "new_window": false,
+                "type": "action"
+            },
+            {
                 "label": "Blog",
                 "url": "/blog",
                 "style": "link"
@@ -37,13 +44,6 @@
                 "label": "Contact Us",
                 "url": "/contact",
                 "style": "primary"
-            },
-            {
-                "label": "Home",
-                "url": "/",
-                "style": "link",
-                "new_window": false,
-                "type": "action"
             }
         ]
     },
