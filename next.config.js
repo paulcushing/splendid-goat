@@ -1,6 +1,8 @@
 const path = require('path');
 const sourcebit = require('sourcebit');
 
+const SentryWebpackPlugin = require("@sentry/webpack-plugin");
+
 const sourcebitConfig = require('./sourcebit.js');
 
 
@@ -30,6 +32,19 @@ module.exports = {
         // function to update the content on the page without refreshing the
         // whole page
         config.plugins.push(new webpack.WatchIgnorePlugin([/\/content\//]));
+        
+        if (process.env.NODE_ENV === 'production') {
+            config.plugins.push(new SentryWebpackPlugin({
+                // sentry-cli configuration
+                authToken: process.env.SENTRY_AUTH_TOKEN,
+                org: "gem-state-media",
+                project: "gem-state-media",
+        
+                // webpack specific configuration
+                include: ".",
+                ignore: ["node_modules", "webpack.config.js"],
+            }));
+        };
         return config;
     }
 };
