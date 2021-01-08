@@ -78,7 +78,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-  - title: What Realtors
+  - title: What Realtors Think
     team: []
     type: team_section
 layout: advanced
