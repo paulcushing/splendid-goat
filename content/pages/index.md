@@ -79,7 +79,8 @@ sections:
     has_background: true
     background_color: gray
   - title: What Realtors Think
-    team: []
+    team:
+      - content/data/team/person-4gob0cz2v.json
     type: team_section
 layout: advanced
 ---
