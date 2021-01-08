@@ -81,6 +81,7 @@ sections:
   - title: What Realtors Think
     team:
       - content/data/team/person-4gob0cz2v.json
+      - content/data/team/person-del7ho8tw.json
     type: team_section
 layout: advanced
 ---
