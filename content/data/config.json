@@ -57,24 +57,18 @@
         "has_social": true,
         "social_links": [
             {
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "link",
-                "new_window": true
-            },
-            {
                 "label": "GitHub",
-                "url": "https://github.com/",
+                "url": "https://github.com/paulcushing",
                 "style": "link",
                 "new_window": true
             },
             {
                 "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
+                "url": "https://www.linkedin.com/company/gem-state-media",
                 "style": "link",
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created on <a href=\"https://www.stackbit.com\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Get yours <a href=\"https://app.stackbit.com/create?theme=starter\" target=\"_blank\" rel=\"noopener\">here</a>."
+        "content": "&copy; Gem State Media. All rights reserved."
     }
 }
