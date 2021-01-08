@@ -63,6 +63,12 @@ sections:
           - label: Learn More
             url: /features
             style: secondary
+  - title: What Realtors Think
+    team:
+      - content/data/team/person-4gob0cz2v.json
+      - content/data/team/person-del7ho8tw.json
+      - content/data/team/person-r5wnkl913.json
+    type: team_section
   - type: blog_feed_section
     title: What's New
     show_recent: true
@@ -78,11 +84,5 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-  - title: What Realtors Think
-    team:
-      - content/data/team/person-4gob0cz2v.json
-      - content/data/team/person-del7ho8tw.json
-      - content/data/team/person-r5wnkl913.json
-    type: team_section
 layout: advanced
 ---
