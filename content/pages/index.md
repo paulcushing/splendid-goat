@@ -78,5 +78,8 @@ sections:
         style: primary
     has_background: true
     background_color: gray
+  - title: lorem-ipsum
+    team: []
+    type: team_section
 layout: advanced
 ---
