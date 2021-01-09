@@ -1,6 +1,5 @@
 import React from "react";
 import _ from "lodash";
-import Image from "next/image";
 
 import { classNames, toStyleObj, withPrefix } from "../utils";
 import SectionActions from "./SectionActions";
@@ -71,12 +70,9 @@ export default class HeroSection extends React.Component {
                     _.get(section, "image_position", null) === "right",
                 })}
               >
-                {/* <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'title', null)} /> */}
-                <Image
+                <img
                   src={withPrefix(_.get(section, "image", null))}
                   alt={_.get(section, "title", null)}
-                  width={800}
-                  height={600}
                 />
               </div>
             )}
