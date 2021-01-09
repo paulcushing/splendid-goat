@@ -1,7 +1,7 @@
 ---
-title: 'Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis'
-date: '2020-05-25'
-author: content/data/team/miles-tone.yaml
+title: "Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis"
+date: "2020-05-25"
+author: content/data/team/paul-cushing.yaml
 categories:
   - content/data/categories/news.yaml
   - content/data/categories/general.yaml

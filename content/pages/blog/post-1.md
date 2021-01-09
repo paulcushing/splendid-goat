@@ -1,7 +1,7 @@
 ---
 title: Mission Pointe
-date: '2020-12-16'
-author: content/data/team/dianne-ameter.yaml
+date: "2020-12-16"
+author: content/data/team/paul-cushing.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml

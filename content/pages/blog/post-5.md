@@ -1,7 +1,7 @@
 ---
 title: Amet Nulla Facilisi Morbi Tempus
-date: '2020-06-02'
-author: content/data/team/gordon-norman.yaml
+date: "2020-06-02"
+author: content/data/team/paul-cushing.yaml
 categories:
   - content/data/categories/tutorials.yaml
 tags:
