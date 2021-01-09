@@ -6,7 +6,7 @@ categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml
   - content/data/categories/category-mwt8h4rz2.json
-image: images/1.png
+image: images/MissionPointe-1.jpg
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
   magnitudine obruebantur. Duo Reges: constructio interrete.
