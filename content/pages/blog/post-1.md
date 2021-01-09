@@ -5,6 +5,7 @@ author: content/data/team/dianne-ameter.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml
+  - content/data/categories/category-mwt8h4rz2.json
 image: images/1.png
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
