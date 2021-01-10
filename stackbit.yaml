@@ -178,6 +178,25 @@ models:
         name: title
         label: Title
         required: true
+  gallery:
+    type: data
+    label: gallery
+    folder: galleries
+    labelField: id
+    fields:
+      - type: string
+        name: id
+        label: ID
+        description: 'A unique identifier used when filtering galleries'
+        required: true
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: list
+        name: image
+        label: Image
+        required: false
   page:
     type: page
     label: Page

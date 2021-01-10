@@ -21,14 +21,10 @@ sections:
   - type: team_section
     title: Our Team
     team:
-      - content/data/team/miles-tone.yaml
-      - content/data/team/dianne-ameter.yaml
-      - content/data/team/eleanor-carr.yaml
-      - content/data/team/hanson-deck.yaml
-      - content/data/team/gordon-norman.yaml
+      - content/data/team/paul-cushing.yaml
   - type: cta_section
-    title: Join the Team
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+    title: Contact Us
+    subtitle: "Got a question? Just want to say howdy?"
     actions:
       - label: Contact Us
         url: /contact
