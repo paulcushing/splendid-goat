@@ -180,7 +180,7 @@ models:
         required: true
   gallery:
     type: data
-    label: gallery
+    label: Gallery
     folder: galleries
     labelField: id
     fields:
@@ -266,9 +266,9 @@ models:
         label: Galleries
         description: The galleries of the post
         items:
-          type: reference
-          models:
-            - gallery
+          type: image
+          name: image
+          label: Image
   advanced:
     type: page
     label: Advanced Page
