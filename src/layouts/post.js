@@ -78,10 +78,10 @@ export default class Post extends React.Component {
             <div className="post__copy">
               {markdownify(_.get(this.props, "page.markdown", null))}
             </div>
-            {_.get(this.props, "page.frontmatter.galleries", null) && (
+            {_.get(this.props, "page.frontmatter.gallery", null) && (
               <BlogPostGallery
                 {...this.props}
-                galleries={_.get(this.props.data, "galleries", null)}
+                gallery={_.get(this.props, "page.frontmatter.gallery", null)}
               />
             )}
             {_.get(this.props, "page.frontmatter.tags", null) && (

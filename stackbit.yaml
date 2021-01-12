@@ -178,25 +178,6 @@ models:
         name: title
         label: Title
         required: true
-  gallery:
-    type: data
-    label: Gallery
-    folder: galleries
-    labelField: id
-    fields:
-      - type: string
-        name: id
-        label: ID
-        description: "A unique identifier used when filtering galleries"
-        required: true
-      - type: string
-        name: title
-        label: Title
-        required: true
-      - type: list
-        name: image
-        label: Image
-        required: false
   page:
     type: page
     label: Page
@@ -262,12 +243,12 @@ models:
         label: Excerpt
         description: The excerpt of the page displayed in the blog feed and meta data
       - type: list
-        name: galleries
-        label: Galleries
-        description: The galleries of the post
+        name: gallery
+        label: Gallery
+        description: The images to fill the attached gallery
         items:
           type: image
-          name: image
+          name: galleryimage
           label: Image
   advanced:
     type: page
