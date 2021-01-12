@@ -248,7 +248,7 @@ models:
         description: The images to fill the attached gallery
         items:
           type: image
-          name: images
+          name: galleryimage
           label: Images
   advanced:
     type: page
