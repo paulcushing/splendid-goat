@@ -81,11 +81,7 @@ export default class Post extends React.Component {
             {_.get(this.props, "page.frontmatter.galleries", null) && (
               <BlogPostGallery
                 {...this.props}
-                galleries={_.get(
-                  this.props,
-                  "page.frontmatter.galleries",
-                  null
-                )}
+                galleries={_.get(this.props.data, "galleries", null)}
               />
             )}
             {_.get(this.props, "page.frontmatter.tags", null) && (

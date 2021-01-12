@@ -5,20 +5,23 @@ import { withPrefix } from "../utils";
 
 export default class BlogPostGallery extends React.Component {
   render() {
-    let galleries = _.get(this.props.data, "galleries", null);
+    let galleries = _.get(this.props, "galleries", null);
+    /* TODO:
+    * Works for one gallery - build to accomodate multiple
+    */
+    const galleryName = _.get(this.props, "page.frontmatter.galleries", null)[0].replace(/.yaml/g, '');
+    const gallery = galleries[galleryName];
+    
     return (
       <div className="post-gallery">
-        {_.map(galleries, (gallery, gallery_idx) => {
-          let { images } = gallery;
-          return _.map(images, (image, image_idx) => (
+        {_.map(gallery.images, (image, image_idx) => (
             <img
               className="post-gallery-image"
               key={image_idx}
               src={withPrefix(image)}
               alt={gallery.title}
             />
-          ));
-        })}
+    ))}
       </div>
     );
   }
