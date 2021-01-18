@@ -10,18 +10,17 @@ export default class BlogPostGallery extends React.Component {
     this.state = {
       showLightbox: false,
       reveal: 'hidden',
-      lightboxImage: '',
-      lightboxAltText: ''
+      lightboxImage: ''
     }
   }
   
   setLightbox = (image, altText) => {
-    this.setState({ lightboxImage: image, lightboxAltText: altText, showLightbox: true, reveal: 'shown' });
+    this.setState({ lightboxImage: image, showLightbox: true, reveal: 'shown' });
   }
 
   closeLightbox = () => {
     this.setState({ reveal: 'hidden' });
-    setTimeout(() => this.setState({ lightboxImage: '', lightboxAltText: '', showLightbox: false }), 500)
+    setTimeout(() => this.setState({ lightboxImage: '', showLightbox: false }), 400)
     
   }
 
@@ -48,7 +47,6 @@ export default class BlogPostGallery extends React.Component {
       <div className={`lightbox ${this.state.reveal}`}>
         <div className="content">
           <img src={withPrefix(this.state.lightboxImage)} />
-        <div className="title">{this.state.lightboxAltText}</div>
         <a className="close" onClick={(e) => this.closeLightbox()}></a>
       </div>
     </div>
