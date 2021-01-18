@@ -1,0 +1,109 @@
+$size: 4;
+#gallery {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  grid-gap: 0.5em;
+  @media (max-width: 800px) {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+  @media (max-width: 450px) {
+    grid-template: repeat(1, 1fr) / repeat(1, 1fr);
+  }
+
+  & > div {
+    img.post-gallery-image {
+      &:hover {
+        filter: blur(1px);
+        transition: all ease 0.5s;
+      }
+    }
+  }
+}
+//
+// lightbox
+//
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(black, 0.8);
+  display: flex;
+  opacity: 1;
+  transition: opacity 450ms ease-in-out;
+  align-items: center;
+  justify-content: center;
+  .content {
+    max-width: 90%;
+    position: relative;
+    color: #fff;
+  }
+  .title {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(70%);
+    font-size: 1.5em;
+    opacity: 1;
+  }
+  img {
+    max-height: 90vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    filter: blur(0px);
+  }
+  a.close {
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    z-index: 11;
+    right: 0;
+    top: 0;
+    background-color: rgba(black, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transform-origin: right top;
+    text-decoration: none;
+    color: #fff;
+    &::after {
+      content: "X";
+    }
+  }
+}
+
+.lightbox.shown {
+  opacity: 1;
+  animation-name: custom-fadein;
+  animation-duration: 0.5s;
+}
+
+.lightbox.hidden {
+  animation-name: custom-fadeout;
+  animation-duration: 0.5s;
+}
+
+@keyframes custom-fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes custom-fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
