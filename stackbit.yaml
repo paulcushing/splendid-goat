@@ -249,7 +249,7 @@ models:
         items:
           type: image
           name: galleryimage
-          label: Images
+          label: Image
   advanced:
     type: page
     label: Advanced Page

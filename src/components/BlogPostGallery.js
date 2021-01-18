@@ -21,7 +21,7 @@ export default class BlogPostGallery extends React.Component {
 
   closeLightbox = () => {
     this.setState({ reveal: 'hidden' });
-    setTimeout(() => this.setState({ lightboxImage: '', lightboxAltText: '', showLightbox: false, reveal: 'hidden' }), 500)
+    setTimeout(() => this.setState({ lightboxImage: '', lightboxAltText: '', showLightbox: false }), 500)
     
   }
 
