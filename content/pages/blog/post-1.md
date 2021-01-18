@@ -12,11 +12,12 @@ excerpt: >-
   magnitudine obruebantur. Duo Reges: constructio interrete.
 layout: post
 gallery:
-  - images/1.png
-  - images/2.png
-  - images/3.png
-  - images/4.png
-  - images/5.png
+  - images/MissionPointe-1.jpg
+  - images/MissionPointe-1.jpg
+  - images/MissionPointe-1.jpg
+  - images/MissionPointe-1.jpg
+  - images/MissionPointe-1.jpg
+  - images/BoiseDowntown-3.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti magnitudine obruebantur. Duo Reges: constructio interrete. An hoc usque quaque, aliter in vita? Gracchum patrem non beatiorem fuisse quam fillum, cum alter stabilire rem publicam studuerit, alter evertere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Illud non continuo, ut aeque incontentae. Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil quieti videre, nihil tranquilli potest. Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum vitium consuetudo Latina traduceret.
