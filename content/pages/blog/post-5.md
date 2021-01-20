@@ -4,6 +4,7 @@ date: "2020-06-02"
 author: content/data/team/paul-cushing.yaml
 categories:
   - content/data/categories/tutorials.yaml
+  - content/data/categories/commercial.yaml
 tags:
   - Stackbit
   - Netlify
