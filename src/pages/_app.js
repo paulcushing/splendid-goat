@@ -3,11 +3,14 @@ import { useEffect } from 'react';
 import Router from 'next/router';
 import '../sass/main.scss';
 import * as Sentry from '@sentry/react';
+import { Integrations } from "@sentry/tracing";
 
 if (process.env.NEXT_PUBLIC_SENTRY_DSN) {
   Sentry.init({
     enabled: process.env.NODE_ENV === 'production',
-    dsn: process.env.NEXT_PUBLIC_SENTRY_DSN
+    dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
+    integrations: [new Integrations.BrowserTracing()],
+    tracesSampleRate: 1.0,
   });
 }
 
@@ -57,4 +60,4 @@ function MyApp({ Component, pageProps }) {
 //   return { ...appProps }
 // }
 
-export default MyApp
+export default Sentry.withProfiler(MyApp);

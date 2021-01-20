@@ -3,9 +3,7 @@ title: Mission Pointe
 date: "2020-12-16"
 author: content/data/team/paul-cushing.yaml
 categories:
-  - content/data/categories/tutorials.yaml
-  - content/data/categories/general.yaml
-  - content/data/categories/category-mwt8h4rz2.json
+  - content/data/categories/residential.yaml
 image: images/MissionPointe-1.jpg
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
